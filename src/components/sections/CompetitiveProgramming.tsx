@@ -78,9 +78,9 @@ export function CompetitiveProgramming() {
                 {/* Stats */}
                 <div className="space-y-3">
                   <div className="flex items-center justify-between">
-                    <span className="text-sm text-[var(--color-text-muted)]">Rating</span>
+                    <span className="text-sm text-[var(--color-text-muted)]">Max Rating</span>
                     <span className="font-mono font-bold text-[var(--color-text-primary)]">
-                      <AnimatedCounter end={platform.rating} />
+                      <AnimatedCounter end={platform.maxRating} />
                     </span>
                   </div>
                   <div className="flex items-center justify-between">
