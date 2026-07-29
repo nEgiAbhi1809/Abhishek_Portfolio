@@ -51,7 +51,7 @@ export interface Project {
   challenges: string[];
   impact: string;
   techStack: string[];
-  github: string;
+  github?: string;
   demo?: string;
   image?: string;
   category: 'ai' | 'fullstack' | 'backend' | 'frontend';
